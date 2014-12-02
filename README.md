@@ -7,7 +7,9 @@
 
 ## Usage
 
-`<API>`
+```objc
+- (NSString *)hyp_URI;
+```
 
 ## Installation
 
