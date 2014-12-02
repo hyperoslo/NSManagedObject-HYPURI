@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "NSManagedObject-HYPURI"
-s.version          = "0.1"
+s.version          = "0.2"
 s.summary          = "A convenience method to get a NSManagedObject URI"
 s.description      = <<-DESC
 * A convenience method to get a NSManagedObject URI
