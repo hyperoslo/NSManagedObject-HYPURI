@@ -1,12 +1,10 @@
 Pod::Spec.new do |s|
 s.name             = "NSManagedObject-HYPURI"
 s.version          = "0.1"
-s.summary          = "A short description of NSManagedObject-HYPURI."
+s.summary          = "A convenience method to get a NSManagedObject URI"
 s.description      = <<-DESC
-An optional longer description of NSManagedObject-HYPURI
-
-* Markdown format.
-* Don't worry about the indent, we strip it!
+* A convenience method to get a NSManagedObject URI
+* Super easy to use!
 DESC
 s.homepage         = "https://github.com/hyperoslo/NSManagedObject-HYPURI"
 s.license          = 'MIT'
@@ -19,6 +17,5 @@ s.requires_arc = true
 
 s.source_files = 'Source/**/*'
 
-# s.frameworks = 'UIKit', 'MapKit'
-# s.dependency 'AFNetworking', '~> 2.3'
+s.frameworks = 'CoreData'
 end
