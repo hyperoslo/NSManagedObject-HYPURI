@@ -14,7 +14,7 @@
 
     NSError *error = nil;
     NSManagedObject *object = [context existingObjectWithID:objectID error:&error];
-    if (error) NSLog(@"ERROR getting object with URI %@ from MOC:\n%@", URI, [error localizedDescription]);
+    if (error) NSLog(@"NSManagedObject (HYPURI) Error getting object with URI %@ from MOC:\n%@", URI, [error localizedDescription]);
 
     return object;
 }
